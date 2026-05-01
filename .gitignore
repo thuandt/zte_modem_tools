@@ -3,5 +3,6 @@
 /build
 /dist
 /venv32
+__pycache__
 *.spec
 .DS_Store

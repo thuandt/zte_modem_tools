@@ -1,0 +1,19 @@
+[project]
+name = "zte-modem-tools"
+version = "0.1.0"
+description = "ZTE factory mode (works with Viettel F670L F671Y)"
+authors = [{ name = "douniwan5788" }]
+maintainers = [
+    { name = "Thuan Duong", email = "847996+thuandt@users.noreply.github.com" },
+]
+dynamic = ["readme"]
+requires-python = ">=3.13"
+dependencies = ["requests (>=2.33.1,<3.0.0)", "pycryptodome (>=3.23.0,<4.0.0)"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
+readme = ["README.md", "README-F671Y.md"]
